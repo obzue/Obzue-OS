@@ -1,25 +1,15 @@
-# Obzue OS
+# Obzue Desk v0.1
 
-Browser desktop for ObzueAI product work. Not a native operating system. Not a device-control agent. Not the Corta membrane and not the SI MemBrain site.
+Browser desk for ObzueAI Maker work. Free MIT. Not Windows. Not Paperclip. Not Corta.
 
-## Run
+**Offer:** open the desk, add a Binder ticket, export `board.json`.
 
-Open `desktop/index.html` in a current browser, or serve the folder:
+## 60-second demo
 
 ```bash
 python3 -m http.server 8080 --directory desktop
 ```
 
-## What was rebuilt
+Open http://127.0.0.1:8080 — taskbar should read v0.1.0. Open Binder, Add a ticket, Export. That download is the done test.
 
-The WebSim paste mixed HTML, CSS, and JavaScript and pointed at missing PNGs. This tree splits those files, uses CSS/SVG chrome, implements Start / context / Control Panel / Trash, and gives each video window its own player id.
-
-## Skill
-
-`skills/obzue-product-forge/` is the agent skill that routes hardware, manufacturing, business, and further OS work. Load it from `/home/workdir/.grok/skills/obzue-product-forge` in Grok.
-
-## Limits
-
-- iframes cannot display most third-party sites
-- no silent control of Windows, macOS, Android, or iOS
-- no claim of sentience
+Enable GitHub Pages on `/desktop` of `main` for a public demo URL.

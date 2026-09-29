@@ -1,0 +1,25 @@
+{
+  "company": "ObzueAI",
+  "desk": "Binder",
+  "version": "0.1.0",
+  "tickets": [
+    {
+      "id": "B-001",
+      "title": "Ship Obzue Desk v0.1",
+      "status": "done",
+      "owner": "Desk",
+      "priority": 1,
+      "probe": "LICENSE README MAP PRIVACY VERSION",
+      "evidence": "Founder signed SKU. Pack written 2026-09-29."
+    },
+    {
+      "id": "B-002",
+      "title": "Stranger completes the 60-second demo",
+      "status": "todo",
+      "owner": "Founder",
+      "priority": 1,
+      "probe": "board.json downloaded from Binder Export",
+      "evidence": ""
+    }
+  ]
+}
